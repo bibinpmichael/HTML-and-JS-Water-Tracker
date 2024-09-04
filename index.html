@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Water Tracker</title>
+        <!-- Preconnect to Google Fonts to speed up loading -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Link to Google Fonts for custom fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spinnaker&display=swap" rel="stylesheet">
+        <!-- Link to the external CSS file for styling -->
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <!-- Main container for the water tracker application -->
+        <div class="container">
+            <!-- Main heading of the application -->
+            <h1 class="heading-el">Water Tracker</h1>
+            <!-- Description prompting user input -->
+            <p class="description-el">How many cups of water?</p>
+            <!-- Display current count of cups -->
+            <h2 id="count-el">0</h2>
+            <!-- Button to increment the count of cups -->
+            <button id="cups-btn" onclick="increment()">Cups</button>
+            <!-- Button to save the current count of cups -->
+            <button id="save-btn" onclick="save()">Save</button>
+            <!-- Button to reset all counts -->
+            <button id="reset-btn" onclick='reset()'>Reset</button>
+            <!-- Paragraph to display saved entries -->
+            <p id="cups-el">Cups: </p>
+            <!-- Paragraph to display total number of cups saved -->
+            <p id="total-el">Total: </p>
+        </div>
+        <!-- Link to the external JavaScript file for functionality -->
+        <script src="/index.js"> </script>
+    </body>
+</html>

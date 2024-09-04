@@ -1,0 +1,85 @@
+/* Reset margins, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body to set font, text color, background image, and height */
+body {
+    font-family: "Lato", sans-serif; /* Use Lato font from Google Fonts */
+    text-align: center; /* Center-align all text */
+    color: #1c1917; /* Text color */
+    background-image: url("water.jpg"); /* Background image for the body */
+    background-size: cover; /* Cover the entire background with the image */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Main container styling for layout and appearance */
+.container {
+    background-color: #bae6fd; /* Light blue background color */
+    max-width: 70%; /* Maximum width of the container */
+    margin: 50px auto; /* Center container with margin */
+    padding: 10px; /* Padding inside the container */
+    border: 6px solid #0369a1; /* Blue border */
+    border-radius: 5%; /* Rounded corners */
+}
+
+/* Heading styling for the main title */
+.heading-el {
+    margin-top: 0; /* No margin at the top */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+/* Styling for the description paragraph */
+.description-el {
+    margin-bottom: 15px; /* Space below the description */
+    font-weight: bold; /* Bold font weight */
+    font-size: 18px; /* Font size */
+}
+
+/* Styling for the count display */
+#count-el {
+    margin-bottom: 15px; /* Space below the count display */
+}
+
+/* General button styling for layout and appearance */
+button {
+    margin-bottom: 15px; /* Space below each button */
+    margin-right: 10px; /* Space to the right of each button */
+    width: 150px; /* Button width */
+    border: none; /* No border around buttons */
+    padding-top: 10px; /* Padding above button text */
+    padding-bottom: 10px; /* Padding below button text */
+    font-weight: bold; /* Bold font weight */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Specific styling for the increment button */
+#cups-btn {
+    background: #67e8f9; /* Light blue background */
+}
+
+/* Specific styling for the save button */
+#save-btn {
+    background: #34d399; /* Green background */
+}
+
+/* Specific styling for the reset button */
+#reset-btn {
+    background: #fb7185; /* Pink background */
+}
+
+/* Styling for the saved cups display */
+#cups-el {
+    font-weight: bold; /* Bold font weight */
+    font-size: 14px; /* Font size */
+    margin-bottom: 15px; /* Space below the saved cups display */
+}
+
+/* Styling for the total cups display */
+#total-el {
+    font-weight: bold; /* Bold font weight */
+    font-size: 14px; /* Font size */
+    margin-bottom: 15px; /* Space below the total cups display */
+}
